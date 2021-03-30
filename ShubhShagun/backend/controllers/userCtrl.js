@@ -2,7 +2,7 @@ const Users = require('../models/userModel')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const sgMail = require("@sendgrid/mail")
-const {google} = require('googleapis')
+
 
 const {
     API_KEY,
@@ -154,7 +154,7 @@ const userCtrl = {
                 html: `
                     <div style="max-width: 700px; margin:auto; border: 10px solid #ddd; padding: 50px 20px; font-size: 110%;">
                     <h2 style="text-align: center; text-transform: uppercase;color: teal;">Welcome to Our Portal.</h2>
-                    <p>Congratulations! You're almost set to start using SHUBH SHAGUN .
+                    <p>OOps! You forgot the password, just one click away to use our service .
                         Just click the button below to validate your email address.
                     </p>
                     
